@@ -16,6 +16,7 @@ const FormLogin = () => {
       emailRef.current.focus();
     }
   }, []);
+
   return (
     <form onSubmit={handleLogin}>
       <InputForm label="Email" type="email" placeholder="example@mail.com" name="email" ref={emailRef} />
