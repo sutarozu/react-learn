@@ -17,8 +17,8 @@ const DetailProductPage = () => {
     <div className="min-h-screen flex justify-center items-center bg-slate-500">
       {Object.keys(product).length > 0 && (
         <div className="flex font-sans max-w-2xl bg-slate-600 p-10 border border-slate-700 rounded-xl">
-          <div className="flex-none w-68 relative">
-            <img src={product.image} alt={product.title} className="absolute inset-0 w-full h-full" loading="lazy" />
+          <div className="flex-none w-40 relative">
+            <img src={product.image} alt={product.title} className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
           </div>
           <form className="flex-auto p-6">
             <div className="flex flex-wrap">
